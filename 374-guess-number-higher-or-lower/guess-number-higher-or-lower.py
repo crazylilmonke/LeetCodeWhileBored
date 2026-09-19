@@ -24,8 +24,8 @@ class Solution:
             res = guess(mid)
             
             if res == 0:
-                return mid  # Found the picked number!
+                return mid 
             elif res == -1:
-                high = mid - 1  # Picked number is lower
+                high = mid - 1  
             else:
                 low = mid + 1   
